@@ -6,7 +6,7 @@ List the hostname, IP address, and timestamp of the Liquibase lock record
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/list-locks@v4.19.1
+- uses: liquibase-github-actions/list-locks@v4.20.0
   with:
     # The JDBC database connection URL
     # string
@@ -60,7 +60,7 @@ The liquibase list locks action accepts all valid liquibase global options as op
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/list-locks@v4.19.1
+  - uses: liquibase-github-actions/list-locks@v4.20.0
     with:
       url: ""
       headless: true
